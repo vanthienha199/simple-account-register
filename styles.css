@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+/* Margin 0 và padding 0 để các con chữ sát vào lề*/
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+body {
+  min-height: 100vh;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+}
+/* Hành động gọi css-ở trên là mặc định, cùng nhìn xem bên trái gọi css ở trên sẽ thay đổi gì?*/
+
+/*Quy luật thiết kế: Chỉnh từ ngoài vô trong. Vì vậy chúng ta bắt đầu từ element form*/
+
+/*QUAN TRỌNG!! Chỉnh từ code sẽ rất khó hình dung. Vì vậy chúng ta sẽ chỉnh sử dụng inspect trên web. Nhưng trước tiên phải đặt tên class cho từng cấu trúc bên html*/
+
+/*h1, p, button,.. không cần đặt class vì chúng là những elements có tên riêng biệt. Còn input chung chung phải đặt tên class*/
+form {
+    width: 40vw;
+}
+
+h1 {
+
+}
+
+p {
+    
+}
+
+
+.field {
+
+}
+
+.fill {
+
+}
+
+.account {
+
+}

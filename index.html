@@ -1,0 +1,45 @@
+<!--Những dòng này luôn phải có-->
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=devive-width, initial-scale=1.0" />
+    <title>Hello</title>
+    <!--giờ chúng ta sẽ làm một thao tác để thiết kế màu sắc và vị trí, kiểu chữ-->
+    <!--html chỉ là bố cục như cấu trúc tòa nhà, nhưng màu sơn và sắp xếp vị trí các nội thất cần dùng đến css-->
+    <link rel="stylesheet" href="style.css">
+ </head>
+
+    <!--Đặt tên class cho các bố cục bên dưới để chỉnh từng cái-->
+ <body>
+    <form>
+        <!--h1 là chữ to và đậm nhất, h2 h3 nhỏ và nhạt dần-->
+        <h1>Account Login</h1>
+
+        <!--p là chữ kiểu văn bản-->
+        <p>If you are already a member you can login with your password</p>
+
+        <!--label và input cần dùng 'for' để nhúng vào nhau-->
+        <div class="field">
+            <label class="fill" for="email">Email address</label>
+            <!--type email và password ở đây là để tạo ô trống cho người dùng nhập thông tin-->
+            <input id="email" type="email" required />
+
+            <label for="password">Password</label>
+            <input id="password" type="password" required />
+        </div>
+        
+        <!--type checkbox là để người dùng tick vô-->
+        <input class="checkbox" type="checkbox" /><span>Remember me</span>
+        
+        <!--type button là để người dùng nhấn nút-->
+        <button>Register Account</button>
+        
+        <!--a href="link" target="_blank" là để gán link vào cụm từ đó-->
+        <div class="account">
+            <label>Don't have an account? <a href="www.hybhealthyfood.com" target="_blank">Sign up here</a></label>
+        </div>
+    </form>
+ </body>
+</html>
