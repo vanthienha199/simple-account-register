@@ -5,13 +5,18 @@
  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=devive-width, initial-scale=1.0" />
-    <title>Hello</title>
+    <title>Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
     <!--giờ chúng ta sẽ làm một thao tác để thiết kế màu sắc và vị trí, kiểu chữ-->
     <!--html chỉ là bố cục như cấu trúc tòa nhà, nhưng màu sơn và sắp xếp vị trí các nội thất cần dùng đến css-->
     <link rel="stylesheet" href="style.css">
+    <!--Ở đây link tên style.css sai rồi! Trong khi file kia là styles.css. Phải sửa tên file kia lại-->
  </head>
 
     <!--Đặt tên class cho các bố cục bên dưới để chỉnh từng cái-->
+    <!--Nên dùng <br /> để xuống dòng cho đẹp trước-->
  <body>
     <form>
         <!--h1 là chữ to và đậm nhất, h2 h3 nhỏ và nhạt dần-->
@@ -20,23 +25,30 @@
         <!--p là chữ kiểu văn bản-->
         <p>If you are already a member you can login with your password</p>
 
+        <br />
         <!--label và input cần dùng 'for' để nhúng vào nhau-->
         <div class="field">
-            <label class="fill" for="email">Email address</label>
+            <label for="email">Email address</label>
+            <br />
             <!--type email và password ở đây là để tạo ô trống cho người dùng nhập thông tin-->
-            <input id="email" type="email" required />
+            <input class="fill" id="email" type="email" required />
 
+            <br />
             <label for="password">Password</label>
-            <input id="password" type="password" required />
+            <br />
+            <input class="fill" id="password" type="password" required />
         </div>
         
         <!--type checkbox là để người dùng tick vô-->
+        <br />
         <input class="checkbox" type="checkbox" /><span>Remember me</span>
         
         <!--type button là để người dùng nhấn nút-->
+        <br />
         <button>Register Account</button>
         
         <!--a href="link" target="_blank" là để gán link vào cụm từ đó-->
+        <br />
         <div class="account">
             <label>Don't have an account? <a href="www.hybhealthyfood.com" target="_blank">Sign up here</a></label>
         </div>

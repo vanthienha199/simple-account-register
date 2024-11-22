@@ -24,15 +24,22 @@ textarea {
 }
 button {
   cursor: pointer;
-  background-color: transparent;
+  background-color: #216ef3;
   outline: none;
   border: 0;
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 body {
   min-height: 100vh;
   font-weight: 400;
   font-size: 16px;
   line-height: 1;
+  font-family: "Inter", serif;
 }
 /* Hành động gọi css-ở trên là mặc định, cùng nhìn xem bên trái gọi css ở trên sẽ thay đổi gì?*/
 
@@ -42,26 +49,50 @@ body {
 
 /*h1, p, button,.. không cần đặt class vì chúng là những elements có tên riêng biệt. Còn input chung chung phải đặt tên class*/
 form {
-    width: 40vw;
+  width: 40vw;
+  background-color: #e3dede;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-h1 {
+/* Gọi element thì gọi trực tiếp tên, gọi class thì có dấu chấm ở trước*/
+/* Làm xong thao tác nào phải CTRL-S save lại nó mới hiện lên bên trang*/
+/* Giờ chúng ta sẽ chỉnh trực tiếp trên inspect, sau đó copy code về*/
+/* Chúng ta làm tương tự với mọi yếu tố khác*/
 
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
 }
 
 p {
-    
+  font-size: 15px;
+  font-weight: 400;
+  color: gray;
+  margin-top: 8px;
+  line-height: 1.4;
+  letter-spacing: 1px;
 }
-
 
 .field {
 
 }
 
 .fill {
-
+  width: 100%;
+  border-radius: 8px;
+  border: none;
+  border: 1px solid gray;
+  margin-top: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
 }
 
 .account {
-
+  text-align: center;
+  margin-top: 19px;
 }
